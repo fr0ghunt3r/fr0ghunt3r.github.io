@@ -4,4 +4,52 @@ My PC cannot handle Korean language in the default editor, so I cannot help writ
 
 ### 0. Preliminaries
 
-For our convenience, we'd better program in the same environment. I prefer PyTorch and Python 3 rather than other deep learning framework/language. So here is the environment setting for developing/implementing homework below and further works.
+For our convenience, we'd better program in the same environment. I prefer PyTorch and Python3 rather than other deep learning framework/language. So here is the environment setting for developing/implementing homework below and further works.
+
+
+    # packages in environment at /home/choi/miniconda3/envs/torch:
+    #
+    # Name                    Version                   Build  Channel
+    blas                      1.0                         mkl  
+    ca-certificates           2019.1.23                     0  
+    certifi                   2019.3.9                 py37_0  
+    cffi                      1.12.2           py37h2e261b9_1  
+    cudatoolkit               10.0.130                      0  
+    cudnn                     7.3.1                cuda10.0_0  
+    intel-openmp              2019.3                      199  
+    libedit                   3.1.20181209         hc058e9b_0  
+    libffi                    3.2.1                hd88cf55_4  
+    libgcc-ng                 8.2.0                hdf63c60_1  
+    libgfortran-ng            7.3.0                hdf63c60_0  
+    libstdcxx-ng              8.2.0                hdf63c60_1  
+    mkl                       2019.3                      199  
+    mkl_fft                   1.0.10           py37ha843d7b_0  
+    mkl_random                1.0.2            py37hd81dba3_0  
+    ncurses                   6.1                  he6710b0_1  
+    ninja                     1.9.0            py37hfd86e86_0  
+    numpy                     1.16.2           py37h7e9f1db_0  
+    numpy-base                1.16.2           py37hde5b4d6_0  
+    openssl                   1.1.1b               h7b6447c_1  
+    pip                       19.0.3                   py37_0  
+    pycparser                 2.19                     py37_0  
+    python                    3.7.3                h0371630_0  
+    pytorch                   1.0.1           cuda100py37he554f03_0  
+    readline                  7.0                  h7b6447c_5  
+    setuptools                40.8.0                   py37_0  
+    sqlite                    3.27.2               h7b6447c_0  
+    tk                        8.6.8                hbc83047_0  
+    wheel                     0.33.1                   py37_0  
+    xz                        5.2.4                h14c3975_4  
+    zlib                      1.2.11               h7b6447c_3  
+
+
+The minor versions of packages can be changed to the compatibilities of your PC. Everything is okay if you use Python3 and PyTorch v1.xx.
+Visit Anaconda websites for the detailed installation guide and usages.
+
+    https://www.anaconda.com/distribution/
+
+### 1. Introduction to MNIST
+
+We 
+
+
