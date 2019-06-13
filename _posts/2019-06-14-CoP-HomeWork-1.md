@@ -50,6 +50,32 @@ Visit Anaconda websites for the detailed installation guide and usages.
 
 ### 1. Introduction to MNIST
 
-We 
+
+We will participate in a difficult challenge as a goal for CoP, and we should step up first with a simple problem to reach the goal.
+I think MNIST is suitable for our first homework because the dataset is well-known and quite simple. The MNIST dataset contains of 70000 images of handwrited numbers with 28x28 pixel size. It also contains an annotation for each image. An image is matched with a ground truth label that is a number which corresponds to the image.
+
+You can download the MNIST dataset here.
+
+    http://yann.lecun.com/exdb/mnist/
+
+### 2. Homework 1
 
 
+Our goal in this homework is making an MNIST classifier based on deep learning algorithms.  
+The first homework we should do is make a classifier which achieves over 90% of prediction accuracy on the MNIST dataset.
+The classifier will get test images as input, and it predicts class numbers(labels) of the test images.
+
+There are lots of tutorials about the MNIST classifier on websites. Here are the MNIST tutorials that run on PyTorch and Python3.
+
+    https://medium.com/@inmoonlight/pytorch%EB%A1%9C-%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%95%98%EA%B8%B0-cnn-62a9326111ae
+    https://jaeyung1001.tistory.com/43
+    https://github.com/pytorch/examples/tree/master/mnist
+
+As a homework, I think we need to set some achievements for difficulty so that you can understand what we do and how it works.
+
+1. Build a classifier that performs over 90% of prediction accuracy.
+2. Build a classifier by both DNNs(fully connected layers) and CNNs.
+
+Feel free to text/call me if you have any questions about the homework.
+
+See you next Monday.
